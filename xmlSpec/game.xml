@@ -1,0 +1,380 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>Secret Door</title>
+<maxStringSize>50</maxStringSize>
+<collisionStrategy>PerPixel</collisionStrategy>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>300</maxFrames>
+<username>malloy</username>
+
+<view>
+  <width>940</width>
+  <height>580</height>
+</view>
+
+<world>
+  <width>4000</width>
+  <height>4000</height>
+</world>
+
+
+
+<farm>
+  <file>assets/RockTilesBackGround.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</farm>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+
+<numberOfCrows>20</numberOfCrows>
+
+<crow>
+  <file>assets/crow.png</file>
+  <startLoc x="630" y="640"/>
+  <frames>6</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>150</speedX>
+  <speedY>50</speedY>
+  <transparency>false</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</crow>
+
+<crowLeft>
+  <file>assets/crowLeft.png</file>
+  <frames>6</frames>
+  <transparency>false</transparency>
+</crowLeft>
+
+<crowDying>
+  <file>assets/dyingcrow.png</file>
+  <frames>6</frames>
+  <frameInterval>500</frameInterval>
+  <speedX>0</speedX>
+  <speedY>100</speedY>
+  <transparency>false</transparency>
+</crowDying>
+
+
+
+<player>
+  <file>assets/dungeon_crawler_right.png</file>
+  <startLoc x="850" y="540"/>
+  <frames>3</frames>
+  <frameInterval>0.02</frameInterval>
+  <speedX>250</speedX>
+  <speedY>250</speedY>
+  <transparency>false</transparency>
+  <bulletName>Pathfinder</bulletName>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</player>
+
+<playerLeft>
+  <file>assets/dungeon_crawler_left.png</file>
+  <frames>3</frames>
+  <transparency>false</transparency>
+</playerLeft>
+
+<playerUp>
+  <file>assets/dungeon_crawler_up.png</file>
+  <frames>3</frames>
+  <transparency>false</transparency>
+</playerUp>
+
+<playerDown>
+  <file>assets/dungeon_crawler_down.png</file>
+  <frames>3</frames>
+  <transparency>false</transparency>
+</playerDown>
+
+<Pathfinder>
+  <file>assets/swordup.png</file>
+  <frames>5</frames>
+  <frameInterval>100</frameInterval>
+  <startLoc x="227" y="240"/>
+  <speed x="300" y="0"/>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <interval>100</interval>
+  <distance>320</distance>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</Pathfinder>
+
+<Pathfinderright>
+  <file>assets/swordright.png</file>
+  <frames>5</frames>
+  <frameInterval>100</frameInterval>
+  <startLoc x="227" y="240"/>
+  <speed x="300" y="0"/>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <interval>100</interval>
+  <distance>320</distance>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</Pathfinderright>
+
+<Pathfinderleft>
+  <file>assets/swordleft.png</file>
+  <frames>5</frames>
+  <frameInterval>100</frameInterval>
+  <startLoc x="227" y="240"/>
+  <speed x="300" y="0"/>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <interval>100</interval>
+  <distance>320</distance>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</Pathfinderleft>
+
+<Pathfinderdown>
+  <file>assets/sworddown.png</file>
+  <frames>5</frames>
+  <frameInterval>100</frameInterval>
+  <startLoc x="227" y="240"/>
+  <speed x="300" y="0"/>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <interval>100</interval>
+  <distance>320</distance>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</Pathfinderdown>
+
+<Interactive_spot>
+  <file>assets/clue.png</file>
+  <frames>1</frames>
+  <frameInterval>100</frameInterval>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</Interactive_spot>
+
+<waterPuzzle>
+  <file>assets/water.png</file>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</waterPuzzle>
+
+<firePuzzle>
+  <file>assets/fire.png</file>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</firePuzzle>
+
+<grassPuzzle>
+  <file>assets/grass.png</file>
+  <frames>8</frames>
+  <frameInterval>100</frameInterval>
+  <scale>1.0</scale>
+  <transparency>false</transparency>
+</grassPuzzle>
+
+
+<numberOfLights>15</numberOfLights>
+<lightSpec lightX1="200" lightY1="1800" lightZ1="100" />
+<lightSpec lightX2="3800" lightY2="200" lightZ2="100" />
+<lightSpec lightX3="900" lightY3="600" lightZ3="100" />
+<lightSpec lightX4="200" lightY4="2400" lightZ4="100" />
+<lightSpec lightX5="400" lightY5="3400" lightZ5="100" />
+<lightSpec lightX6="800" lightY6="3000" lightZ6="100" />
+<lightSpec lightX7="1200" lightY7="2200" lightZ7="100" />
+<lightSpec lightX8="2200" lightY8="400" lightZ8="100" />
+<lightSpec lightX9="2200" lightY9="1000" lightZ9="100" />
+<lightSpec lightX10="2400" lightY10="2000" lightZ10="100" />
+<lightSpec lightX11="2000" lightY11="2800" lightZ11="100" />
+<lightSpec lightX12="1800" lightY12="3600" lightZ12="140" />
+<lightSpec lightX13="3000" lightY13="200" lightZ13="100" />
+<lightSpec lightX14="3800" lightY14="1800" lightZ14="100" />
+<lightSpec lightX15="3000" lightY15="3200" lightZ15="100" />
+<!-- larger noneffectiveLighting the smaller the radius of the light -->
+<noneffectiveLighting>10000</noneffectiveLighting>
+<ambientLighting>1000</ambientLighting>
+<brightness>10000000</brightness>
+<diffuseGrid>
+   <x>10</x>
+   <y>10</y>
+</diffuseGrid>
+
+<numberOfWalls>14</numberOfWalls>
+<Wall1>
+  <x>1600</x>
+  <y>0</y>
+  <height>1200</height>
+  <width>200</width>
+</Wall1>
+
+<Wall2>
+  <x>2200</x>
+  <y>800</y>
+  <height>200</height>
+  <width>200</width>
+</Wall2>
+
+<Wall3>
+  <x>2800</x>
+  <y>800</y>
+  <height>400</height>
+  <width>1200</width>
+</Wall3>
+
+<Wall4>
+  <x>2200</x>
+  <y>2600</y>
+  <height>200</height>
+  <width>200</width>
+</Wall4>
+
+<Wall5>
+  <x>600</x>
+  <y>1600</y>
+  <height>400</height>
+  <width>1400</width>
+</Wall5>
+
+<Wall6>
+  <x>1600</x>
+  <y>2200</y>
+  <height>200</height>
+  <width>200</width>
+</Wall6>
+
+<Wall7>
+  <x>3000</x>
+  <y>1600</y>
+  <height>200</height>
+  <width>200</width>
+</Wall7>
+
+<Wall8>
+  <x>3400</x>
+  <y>1600</y>
+  <height>200</height>
+  <width>200</width>
+</Wall8>
+
+<Wall9>
+  <x>3000</x>
+  <y>2200</y>
+  <height>200</height>
+  <width>200</width>
+</Wall9>
+
+<Wall10>
+  <x>3400</x>
+  <y>2200</y>
+  <height>200</height>
+  <width>200</width>
+</Wall10>
+
+<Wall11>
+  <x>400</x>
+  <y>2600</y>
+  <height>200</height>
+  <width>1200</width>
+</Wall11>
+
+<Wall12>
+  <x>800</x>
+  <y>2800</y>
+  <height>1200</height>
+  <width>200</width>
+</Wall12>
+
+<Wall13>
+  <x>2200</x>
+  <y>3000</y>
+  <height>1000</height>
+  <width>200</width>
+</Wall13>
+
+<Wall14>
+  <x>2800</x>
+  <y>2800</y>
+  <height>200</height>
+  <width>1200</width>
+</Wall14>
+
+<numberOfEnemies>8</numberOfEnemies>
+
+<Enemy1>
+  <x>3400</x>
+  <y>2000</y>
+  <velX>150</velX>
+  <velY>0</velY>
+</Enemy1>
+
+<Enemy2>
+  <x>2600</x>
+  <y>2000</y>
+  <velX>0</velX>
+  <velY>150</velY>
+</Enemy2>
+
+<Enemy3>
+  <x>200</x>
+  <y>2000</y>
+  <velX>0</velX>
+  <velY>150</velY>
+</Enemy3>
+
+<Enemy4>
+  <x>2400</x>
+  <y>2000</y>
+  <velX>0</velX>
+  <velY>150</velY>
+</Enemy4>
+
+<Enemy5>
+  <x>2000</x>
+  <y>3200</y>
+  <velX>150</velX>
+  <velY>0</velY>
+</Enemy5>
+
+<Enemy6>
+  <x>300</x>
+  <y>3800</y>
+  <velX>150</velX>
+  <velY>0</velY>
+</Enemy6>
+
+<Enemy7>
+  <x>3800</x>
+  <y>3800</y>
+  <velX>150</velX>
+  <velY>0</velY>
+</Enemy7>
+
+<Enemy8>
+  <x>2600</x>
+  <y>200</y>
+  <velX>0</velX>
+  <velY>150</velY>
+</Enemy8>
+
+</GameData>
