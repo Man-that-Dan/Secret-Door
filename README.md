@@ -1,4 +1,4 @@
-#Secret Door
+# Secret Door
 
 Secret Door is a top down dungeon crawler. The objective is to escape
 the labyrinth that you find yourself in. Problem is the door is locked. Your objective is
