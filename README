@@ -1,26 +1,13 @@
-Name: Daniel Toro
+#Secret Door
 
-Course: CPSC 4160
-
-Clemson Email Address: dtoro@g.clemson.edu
-
-Project no: #6
-
-Project due date: 8 AM Wednesday, May 1st, 2019
-
-Project description: Secret Door is a top down dungeon crawler. The objective is to escape
+Secret Door is a top down dungeon crawler. The objective is to escape
 the labyrinth that you find yourself in. Problem is the door is locked. Your objective is
 to search the labyrinth, figure out how to open the door, and escape. All while fending off the undead.
 
-Solution to the puzzle :
+Project created for 2D Game development class at Clemson University. Thanks to intstructor Brian Malloy for framework. 
+Project uses several design patterns including Singleton, Observer pattern, and object pool pattern. 
 
-in the top right, bottom left, and bottom right of the map there are interactable objects each
-with an image of fire, water, or grass. The fire must point directly right (at the grass), the water must point diagonally
-down to the left (at the fire) and the grass straight up. The door on the right wall of the map (in the center) will open
-and walking into it will trigger the win screen. Interact with the puzzles with T then use A and D to move them. 
+Solution to the puzzle : see solution.txt for solution notes for puzzle
 
 
-The Pizzazz feature that I added:
- I am particularly proud of the 3d columns. I made them in a class without opengl and they add depth to the
- game. There is also a basic puzzle to be solved as the objective of the game. There are also lights which give the game
- a haunting ambience.
+
