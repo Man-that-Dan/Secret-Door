@@ -1,0 +1,5 @@
+in the top right, bottom left, and bottom right of the map there are interactable objects each
+with an image of fire, water, or grass. The fire must point directly right (at the grass), the water must point diagonally
+down to the left (at the fire) and the grass straight up. The door on the right wall of the map (in the center) will open
+and walking into it will trigger the win screen. Interact with the puzzles with T then use A and D to move them. 
+
